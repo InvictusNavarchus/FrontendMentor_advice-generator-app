@@ -17,3 +17,9 @@
 
 ## Ignore node_modules
 node_modules
+
+# ignore tailwind input
+input.css
+
+# ignore transpield js
+script.js
