@@ -21,5 +21,6 @@ node_modules
 # ignore tailwind input
 input.css
 
-# ignore transpield js
+# ignore transpiled js
 script.js
+output.css
