@@ -24,3 +24,4 @@ input.css
 # ignore transpiled js
 script.js
 output.css
+advice-generator-app.code-workspace
