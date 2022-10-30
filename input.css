@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-    .advice-card { 
+    .advice-card {
         background-color: hsl(217, 19%, 24%);
         @apply text-white;
         @apply max-w-[360px] min-w-[300px];
