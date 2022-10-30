@@ -8,11 +8,7 @@
           true,
           {
             "ignoreAtRules": [
-              "tailwind",
-              "apply",
-              "responsive",
-              "variants",
-              "screen"
+              "tailwind"
             ]
           }
         ],
