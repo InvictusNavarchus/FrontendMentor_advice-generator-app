@@ -6,7 +6,7 @@
     .advice-card {
         background-color: hsl(217, 19%, 24%);
         @apply text-white rounded-3xl;
-        @apply w-[450px];
+        @apply max-w-[450px];
     }
 
     .dicebutton {
