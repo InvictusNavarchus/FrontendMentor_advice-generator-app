@@ -7,4 +7,9 @@
         background-color: hsl(217, 19%, 24%);
         color: white;
     }
+    #diceButton {
+        @apply rounded-[50%] py-2 px-1 my-[-0.8rem] bg-green-400;
+        position: relative;
+        top: 1.5em;
+    }
 } 
