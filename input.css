@@ -22,4 +22,8 @@
     .diceButton-fetching {
         @apply opacity-50;
     }
+
+    a {
+        @apply text-gray-50;
+    }
 }
