@@ -3,20 +3,23 @@
 @tailwind utilities;
 
 @layer components {
-    .advice-card {
+    .advice-card { 
         background-color: hsl(217, 19%, 24%);
         @apply text-white;
         @apply max-w-[360px] min-w-[300px];
     }
+
     #diceButton {
         @apply bg-green-400 rounded-[50%] py-2 px-1 my-[-0.8rem];
         position: relative;
         top: 1.5em;
     }
+
     .diceButton-standby {
         @apply opacity-100;
     }
+
     .diceButton-fetching {
         @apply opacity-50;
     }
-} 
+}
