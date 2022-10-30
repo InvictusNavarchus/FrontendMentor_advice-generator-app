@@ -9,7 +9,7 @@
         @apply w-[450px];
     }
 
-    #diceButton {
+    .dicebutton {
         @apply bg-green-400 rounded-[50%] py-4 px-3 my-[-0.8rem];
         position: relative;
         top: 1.9em;
@@ -23,6 +23,11 @@
 
     .diceButton-fetching {
         @apply opacity-50;
+    }
+
+    .dicebutton-hover {
+        background-color: rgb(90, 252, 76);
+        box-shadow: 0 0 30px 5px rgb(21, 248, 248);
     }
 
     a {

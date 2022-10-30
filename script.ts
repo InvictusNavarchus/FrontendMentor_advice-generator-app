@@ -29,4 +29,15 @@ async function activateDice() {
     switchState(diceButton);
 }
 
+function addHoverState() {
+    const diceButton:HTMLElement = document.querySelector("#diceButton");
+    diceButton.addEventListener("mouseenter", (e) => {
+        diceButton.classList.toggle("dicebutton-hover");
+    })
+    diceButton.addEventListener("mouseleave", (e) => {
+        diceButton.classList.toggle("dicebutton-hover");
+    })
+}
+
 placeAdvice();
+addHoverState();
