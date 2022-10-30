@@ -10,9 +10,9 @@
     }
 
     .dicebutton {
-        @apply bg-green-400 rounded-[50%] py-4 px-3 my-[-0.8rem];
+        @apply bg-green-400 rounded-[50%] py-4 px-3 my-[-1.5rem];
         position: relative;
-        top: 1.9em;
+        top: 1.4em;
     }
 }
 
