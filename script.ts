@@ -1,14 +1,20 @@
+interface slipInterface {
+    id: number,
+    advice: string,
+}
+
 async function getAdvice() {
     const res = await fetch("https://api.adviceslip.com/advice", { cache: "no-store" });
     const { slip } = await res.json();
-    const { advice } = slip;
-    return advice;
+    return slip;
 }
 
 async function placeAdvice() {
-    const advice = await getAdvice();
+    const adviceSlip:slipInterface = await getAdvice();
+    const adviceId = document.querySelector("#advice_id");
     const adviceContent = document.querySelector("#advice_content");
-    adviceContent.textContent = advice;
+    adviceId.textContent = "#" + adviceSlip.id;
+    adviceContent.textContent = adviceSlip.advice;
 }
 
 function switchState(dice:HTMLElement) {
