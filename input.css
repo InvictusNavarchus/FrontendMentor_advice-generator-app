@@ -17,11 +17,11 @@
 }
 
 @layer utilities {
-    .diceButton-standby {
+    .dicebutton-standby {
         @apply opacity-100;
     }
 
-    .diceButton-fetching {
+    .dicebutton-fetching {
         @apply opacity-50;
     }
 

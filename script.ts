@@ -18,8 +18,8 @@ async function placeAdvice() {
 }
 
 function switchState(dice:HTMLElement) {
-    dice.classList.toggle("diceButton-standby");
-    dice.classList.toggle("diceButton-fetching");
+    dice.classList.toggle("dicebutton-standby");
+    dice.classList.toggle("dicebutton-fetching");
 }
 
 async function activateDice() {
