@@ -14,7 +14,9 @@
         position: relative;
         top: 1.5em;
     }
+}
 
+@layer utilities {
     .diceButton-standby {
         @apply opacity-100;
     }
