@@ -5,7 +5,8 @@
 @layer components {
     .advice-card {
         background-color: hsl(217, 19%, 24%);
-        color: white;
+        @apply text-white;
+        @apply max-w-[360px] min-w-[300px];
     }
     #diceButton {
         @apply bg-green-400 rounded-[50%] py-2 px-1 my-[-0.8rem];
