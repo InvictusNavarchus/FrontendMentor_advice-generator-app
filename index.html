@@ -15,11 +15,13 @@
   
   <title>Frontend Mentor | Advice generator app</title>
 </head>
-<body class="font-['Manrope'] bg-slate-800 grid place-content-center h-full">
+<body class="font-['Manrope'] bg-slate-800 grid content-center h-full">
   <main class="">
     <div class="advice-card p-6 flex flex-col gap-6 items-center justify-center text-center">
-      <h2 class="text-green-400 tracking-widest">ADVICE <span id="advice_id"></span></h2>
-      <p id="advice_content"></p>
+      <h2 class="text-green-400 text-lg tracking-widest">ADVICE <span id="advice_id"></span></h2>
+      <div class="min-h-[150px] grid place-content-center">
+        <p id="advice_content"></p>
+      </div>
       <div><img src="./images/pattern-divider-mobile.svg" alt=""></div>
       <div id="diceButton" class="dicebutton dicebutton-standby hover:cursor-pointer" onclick="activateDice()"><img class="w-[75%] m-auto" src="./images/icon-dice.svg" alt=""></div>
     </div>
