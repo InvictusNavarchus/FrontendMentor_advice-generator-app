@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-app-with-tailwind-typescript-r4OB5cn6_M)
+- Live Site URL: [Netlify](https://fem-invictus1032-3.netlify.app/)
 
 ## My process
 
