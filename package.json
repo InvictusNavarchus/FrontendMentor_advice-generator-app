@@ -6,6 +6,6 @@
     "typescript": "^4.8.4"
   },
   "scripts": {
-    "build": "npx tailwindcss -i input.css -o output.css && npx tsc"
+    "build": "npx tsc && npx tailwindcss -i input.css -o output.css"
   }
 }
