@@ -5,14 +5,14 @@
 @layer components {
     .advice-card {
         background-color: hsl(217, 19%, 24%);
-        @apply text-white rounded-3xl;
-        @apply max-w-[450px] mx-10;
+        @apply text-white text-xl rounded-3xl;
+        @apply mx-auto max-w-[60%];
     }
 
     .dicebutton {
         @apply bg-green-400 rounded-[50%] py-4 px-3 my-[-1.5rem];
         position: relative;
-        top: 1.4em;
+        top: 1em;
     }
 }
 
