@@ -14,7 +14,7 @@ async function placeAdvice() {
     const adviceId = document.querySelector("#advice_id");
     const adviceContent = document.querySelector("#advice_content");
     adviceId.textContent = "#" + adviceSlip.id;
-    adviceContent.textContent = adviceSlip.advice;
+    adviceContent.textContent = `"${adviceSlip.advice}"`;
 }
 
 function switchState(dice:HTMLElement) {
